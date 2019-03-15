@@ -7,3 +7,4 @@ A background service doesn't need user interaction and it is not directly notice
 Here I am taking a simple player contains StartPlayer and StopPlayer.
 When clicks on StartPlayer Player will start.
 Even if we close the app the it runs in the background.
+When click on StopPlayer the Player will be stopped.
