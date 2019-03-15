@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Media Player"
+        android:textSize="30dp"
+        android:textColor="#0a5d9f"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="start Serive"
+        android:id="@+id/btnstart"
+        android:onClick="start"
+        android:textColor="#dc3988"
+        android:background="#e9d489"/>
+
+    <Button
+        android:id="@+id/btnstop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="stop"
+        android:text="stop service"
+        android:layout_marginLeft="20dp"
+        android:textColor="#dc3988"
+        android:background="#e9d489"
+        />
+</LinearLayout>
+
+</LinearLayout>
