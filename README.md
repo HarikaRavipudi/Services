@@ -6,3 +6,4 @@ Take an example of Music Player uses Foreground Services and that is noticeable 
 A background service doesn't need user interaction and it is not directly noticed by the user
 Here I am taking a simple player contains StartPlayer and StopPlayer.
 When clicks on StartPlayer Player will start.
+Even if we close the app the it runs in the background.
